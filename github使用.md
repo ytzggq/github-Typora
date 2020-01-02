@@ -2,7 +2,7 @@
 并在此文件夹目录下右键Git Base Here 进入Gitbase命令
 输入git init 初始化仓库
 
-![image-20200102161042685](github使用.assets/image-20200102161042685.png)
+![image-20200102161042685](./images.assets/image-20200102161042685.png)
 
 二、或者在github远程已经新建一个仓库。然后在本地新建文件，然后右键git Bash Here，直接克隆代码；
 
@@ -37,7 +37,7 @@
 2、输入 git merge mergedemo     这个就是合并分支
 合并分支冲突  同时操作同一个文件刚好合并导致冲突类似
 
-![image-20200102161502977](github使用.assets/image-20200102161502977.png)
+![image-20200102161502977](images.assets/image-20200102161502977.png)
 
 ##### 版本汇退
 
