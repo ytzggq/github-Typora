@@ -60,7 +60,7 @@ maven工程已经新建完成，下去我们需要导入Selenium 2.0相应的jar
  2.选择最新版selenium，例如当前最新版本的是2.53.0，则进入如下图：
 
 
- 
+
 
 3.复制Maven 标签内的内容，添加到刚新建的maven项目中的pom.xml文件中，如下：注意:复制进来的内容，需要包含在<dependencies></dependencies>标签中。
 
@@ -138,6 +138,7 @@ selenium-server-standalone-3.8.0.jar
 
  启动脚本
 
+```
 public class ChromTest01 {
    public static void main(String[] args) {
      System.setProperty("webdriver.chrome.driver","C:\\Users\\Bobo\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe");
@@ -154,3 +155,5 @@ public class ChromTest01 {
  //关闭浏览器
      driver.quit();
    }
+```
+

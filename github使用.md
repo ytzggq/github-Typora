@@ -14,13 +14,21 @@
 怎么看呢，颜色如果还是红色，还没有提交代码，
 2、增加文件：git  add  test.txt     
 
-3、如果一下子增加很多文件：git  add .
+3、如果一下子增加很多文件：git  add .   （一般切换到github-Typora ）
 
 3、增加提交注释：  git commit -m "增加测试文件"  
 
-4、git push 推送代码
+4：先git pull,拉取当前分支最新代码
 
-6、git pull     就是拉取代码
+5、push到远程master分支上
+
+   git push origin master
+
+**再次使用****git status****查看当前的****git****仓库状态，已经是没有改动了，证明上传成功**
+
+ 
+
+
 
 7、git branch   查看分支 ，git branch -a  查看远端的分支
 8、git checkout -b branch1  创建branch1 分支，但是远程端还没有提交
